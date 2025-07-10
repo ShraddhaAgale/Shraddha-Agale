@@ -1,0 +1,21 @@
+.footer {
+  background-color: #222;
+  padding: 10px;
+  color: white;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.github-logo-image {
+  width: 30px;
+  height: 30px;
+}
+
+.linkedin-logo-image {
+  width: 30px;
+  height: 30px;
+}

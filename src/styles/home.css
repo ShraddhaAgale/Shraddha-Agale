@@ -1,0 +1,30 @@
+.home-section {
+  color: white;
+  margin-top: 70px;
+}
+
+.intro-section {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  /* gap: 2rem; */
+}
+
+.home-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.img-main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+  /* margin-top: 20px; */
+}
