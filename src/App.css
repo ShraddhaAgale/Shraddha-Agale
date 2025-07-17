@@ -7,7 +7,7 @@
 } */
 
 .background-section {
-  background-image: url("./assets/background1.jpg");
+  background-image: url("./assets/background8.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,4 +16,15 @@
   /* display: flex;  */
   align-items: center;
   /* padding: 50px 20px; */
+}
+
+.app-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Added css to push footer at the bottom */
+.app-wrapper > *:nth-last-child(1) {
+  margin-top: auto;
 }

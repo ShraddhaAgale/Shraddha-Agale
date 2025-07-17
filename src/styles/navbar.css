@@ -3,7 +3,7 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 20px;
-  background-color: #78909c85;
+  background-color: #6fa5c082;
 }
 
 .nav-link {
@@ -11,4 +11,29 @@
   text-decoration: none;
   margin: 0 15px;
   font-size: 1.2rem !important;
+}
+
+.glass-download-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 16px;
+  background: #ffffffb0;
+  color: black;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.glass-download-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+}
+
+.glass-download-btn i {
+  margin-right: 8px;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import GitHubLogo from "../assets/github-logo.jpg";
 import LinkedinLogo from "../assets/LinkedIn_icon.jpg";
+import EmailLogo from "../assets/email-logo.jpg";
+import ContactLogo from "../assets/contact-logo.jpg";
 import "../styles/footer.css";
 
 function footer() {
@@ -20,6 +22,14 @@ function footer() {
             alt="linkedin"
           />
         </a>
+        <p>
+          <img src={EmailLogo} className="email-logo-image" alt="email" />
+          <span> shraddhamagale@gmail.com </span>
+        </p>
+        <p>
+          <img src={ContactLogo} className="contact-logo-image" alt="Contact" />
+          <span> +91 8805830664 </span>
+        </p>
       </div>
     </footer>
   );
