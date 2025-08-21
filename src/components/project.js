@@ -7,14 +7,18 @@ function project() {
       <h1>My Projects</h1>
       <p>Here are some of the projects I have worked on:</p>
       <ul>
-        <li>Project 1: A web application for task management.</li>
-        <li>Project 2: An e-commerce platform built with React and Node.js.</li>
-        <li>Project 3: A mobile app for fitness tracking.</li>
+        <li>Project : Patent Management Applications </li>
       </ul>
-      <p>
-        Each project showcases my skills in software development and my ability
-        to solve real-world problems.
-      </p>
+      <ul>
+        <li>Developed responsive web applications (Patent Search Enabler, Patent Tagger Tool) using Angular 8.</li>
+        <li>Migrated UI from Angular 8 → Angular 17, focusing on CSS fixes and preserving existing layouts.</li>
+        <li>Implemented role-based access control (Inventor, Searcher, Drafter, Office Coordinator) 
+            with different menus & submenus.</li>
+        <li>Integrated REST APIs for dynamic data handling and seamless UI interaction.</li>
+        <li>Built reusable components with PrimeNG for consistent UI experience.</li>
+        <li>Participated in code reviews, Git version control, deployments, and sprint planning in an Agile environment.</li>
+
+      </ul>
     </div>
   );
 }
