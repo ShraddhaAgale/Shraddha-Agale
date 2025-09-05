@@ -22,14 +22,14 @@ function footer() {
             alt="linkedin"
           />
         </a>
-        <p>
+        <span>
           <img src={EmailLogo} className="email-logo-image" alt="email" />
           <span> shraddhamagale@gmail.com </span>
-        </p>
-        <p>
+        </span>
+        <span> 
           <img src={ContactLogo} className="contact-logo-image" alt="Contact" />
           <span> +91 8805830664 </span>
-        </p>
+        </span>
       </div>
     </footer>
   );
