@@ -14,12 +14,8 @@ function navbar() {
         <a className="nav-link" href="/project">
           Project
         </a>
-        {/* <a className="resume-button" href="/Shraddha_Agale_Resume.pdf">
-          Download Resume
-          <i class="bi bi-arrow-down-circle"></i>
-        </a> */}
         <a
-          href="/resume.pdf"
+          href="/Shraddha_Agale_Resume.pdf"
           download="Shraddha_Agale_Resume.pdf"
           class="glass-download-btn fade-in"
         >
