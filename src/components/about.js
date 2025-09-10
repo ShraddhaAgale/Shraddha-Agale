@@ -1,42 +1,30 @@
 import React from "react";
 import "../styles/about.css";
 
-function about() {
+function About() {
   return (
-    // <div className="about-section">
-    //   <h1>About Me</h1>
-    //   <p>
-    //     I am a passionate software developer with a keen interest in building
-    //     innovative solutions. My journey in technology began with a fascination
-    //     for coding and problem-solving, which has led me to explore various
-    //     programming languages and frameworks.
-    //   </p>
-    //   <p>
-    //     I enjoy collaborating on projects that challenge my skills and allow me
-    //     to learn new technologies. In my free time, I contribute to open-source
-    //     projects and stay updated with the latest trends in the tech industry.
-    //   </p>
-    // </div>
-
     <div className="about-card">
       <div className="card-body">
-        {/* <h5 class="card-title">Card title</h5> */}
-        {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
-        <p class="card-text">
-          I am a passionate software developer with a keen interest in building
-          innovative solutions. My journey in technology began with a
-          fascination for coding and problem-solving, which has led me to
-          explore various programming languages and frameworks.
+        <p>
+          I specialize in front-end development using Angular, React, JavaScript, and CSS, and I am dedicated to creating intuitive and visually appealing user interfaces.
         </p>
         <p>
-          I enjoy collaborating on projects that challenge my skills and allow
-          me to learn new technologies. In my free time, I contribute to
-          open-source projects and stay updated with the latest trends in the
-          tech industry.
+          My strengths include problem-solving, attention to detail, and collaborating effectively within teams to deliver high-quality solutions.
         </p>
+        <p>
+          I am always eager to learn new technologies and stay updated with industry trends. Outside of coding, I enjoy reading, traveling, and exploring creative pursuits.
+        </p>
+        <div className="skills-row">
+          <span className="skill-badge">🅰️ Angular</span>
+          <span className="skill-badge">⚛️ React</span>
+          <span className="skill-badge">🟨 JavaScript</span>
+          <span className="skill-badge">🎨 CSS</span>
+          <span className="skill-badge">🌐 HTML</span>
+          
+        </div>
       </div>
     </div>
   );
 }
 
-export default about;
+export default About;

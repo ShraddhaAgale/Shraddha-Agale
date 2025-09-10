@@ -7,7 +7,6 @@
   display: flex;
   flex-wrap: wrap-reverse;
   align-items: center;
-  /* gap: 2rem; */
 }
 
 .home-title {
@@ -26,5 +25,4 @@
   height: auto;
   border-radius: 50%;
   object-fit: cover;
-  /* margin-top: 20px; */
 }

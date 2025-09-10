@@ -16,7 +16,12 @@ function home() {
           <h2 className="home-title">Hi, I'm Shraddha!</h2>
           <p className="home-sub-title">
             I'm a Web UI Developer passionate about building responsive and
-            accessible web applications.
+            accessible web applications. With  hands-on experience in front-end technologies I create
+            user-friendly interfaces that enhance user experiences.
+          </p>
+          <p className="home-sub-title">
+            Explore my portfolio to see my projects and skills. Let's connect
+            and create something amazing together!
           </p>
         </div>
 

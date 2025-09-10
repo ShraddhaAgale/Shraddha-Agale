@@ -3,10 +3,39 @@
 }
 
 .about-card {
-  background-color: #546e7adb;
-  color: white;
-  width: 40%;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 10px;
+  background: rgba(255, 255, 255, 0.1);  /* transparent white */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  padding: 2rem;
+  max-width: 800px;
+  margin: 2rem auto;   /* centers the card */
+  color: #fff;         /* text white for dark bg */
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skills-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 18px;
+}
+
+.skill-badge {
+  background: #e0e7ff;
+  color: #333;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
